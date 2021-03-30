@@ -1,4 +1,9 @@
-medida = float(input('Digite uma distância em metros: '))
-cm = medida * 100
-mm = medida * 1000
-print('A medida de {}m corresponde a {}cm e {}mm'.format(medida, cm, mm))
+print('===== Conversor de Medidas =====')
+m = float(input('Digite um valor em metros: '))
+print('O valor de {:.0f}m em Decimetros é {:.1f}dm!'.format(m, m*10))
+print('O valor de {:.0f}m em Centimetros é {:.1f}cm!'.format(m, m*100))
+print('O valor de {:.0f}m em Milimetros é {:.1f}mm!'.format(m , m*1000))
+print('O valor de {:.0f}m em Decametros é {:.1f}dam!'.format(m, m/10))
+print('O valor de {:.0f}m em Milhas é aproximadamente {:.2f}mi!'.format(m, m/1609))
+print('O valor de {:.0f}m em Quilometros é {:.1f}km!'.format(m, m/1000))
+print('O valor de {:.0f}m em Ectometros é {:.1f}hm!'.format(m, m/100))
